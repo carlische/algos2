@@ -1,5 +1,3 @@
-from utils import read, write
-
 def salesman(n, a):
     INF = float('inf')
     dp = [[INF] * n for _ in range(1 << n)]
